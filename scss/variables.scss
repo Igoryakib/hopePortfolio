@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap');
+
+$white: #fff;
+$blue: #2196f3;
+$grey: #f5f4fa;
+$dark-grey: #afb1b8;
+$text-color: #212121;
+$footer-color: #2f303a;
+$main-font: 'Roboto', sans-serif;
+$logo-font:'Raleway', sans-serif;
+
+%icon-size {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+main,footer,html,body,header{
+  scroll-behavior: smooth; 
+}
+picture{
+  width: 100%;
+  height: 100%;
+}
